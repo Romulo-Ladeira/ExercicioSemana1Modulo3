@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioModulo1\\ExercicioModulo1.csproj": {}
+    "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioSemana1Modulo3\\ExercicioModulo1\\ExercicioModulo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioModulo1\\ExercicioModulo1.csproj": {
+    "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioSemana1Modulo3\\ExercicioModulo1\\ExercicioModulo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioModulo1\\ExercicioModulo1.csproj",
+        "projectUniqueName": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioSemana1Modulo3\\ExercicioModulo1\\ExercicioModulo1.csproj",
         "projectName": "ExercicioModulo1",
-        "projectPath": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioModulo1\\ExercicioModulo1.csproj",
+        "projectPath": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioSemana1Modulo3\\ExercicioModulo1\\ExercicioModulo1.csproj",
         "packagesPath": "C:\\Users\\ROMULO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioModulo1\\obj\\",
+        "outputPath": "C:\\Users\\ROMULO\\Documents\\DevInHouseExercícios\\ExercicioModulo1\\ExercicioSemana1Modulo3\\ExercicioModulo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ROMULO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
